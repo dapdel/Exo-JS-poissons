@@ -1,0 +1,61 @@
+// @import "@fortawesome/fontawesome-free/css/all.css";
+// @import "node_modules/bootstrap/scss/bootstrap";
+html{
+    height:100%;
+}
+
+body{
+    margin:0;
+    height:100%;
+    overflow:hidden;
+}
+.fish1{
+    position:relative;
+    top:30%;
+    left:50%;
+    width: 200px;
+}
+.fish2{
+    position:relative;
+    top:20%;
+    left:5%;
+    width: 200px;
+}
+.fish3{
+    position:relative;
+    top:50%;
+    left:70%;
+    width: 100px;
+}
+.fish4{
+    position:relative;
+    top:40%;
+    left:30%;
+    width: 200px;
+}
+p{
+    display:inline;
+}
+.seaweed{
+    position:relative;
+    top:80%;
+    left:6%;
+    width: 200px;
+    
+}
+.algue1{
+    left:-20%;
+    top:80%;
+    transform: rotate(30deg) ;
+ 
+}
+.algue2{
+    left:-50%;
+    top:75%;
+    transform: scale(1.5) ;
+}
+.algue3{
+    left:0;
+    top:75%;
+    transform: scale(2) rotate(25deg) ;
+}
